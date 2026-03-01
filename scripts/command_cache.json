@@ -1,0 +1,8 @@
+{
+  "commands": {
+    "update_docs": "git submodule update --remote docs-anthropic",
+    "check_status": "git status",
+    "list_outputs": "ls -R outputs/"
+  },
+  "usage": "Este archivo almacena comandos largos o complejos para que el Arquitecto pueda reutilizarlos sin regenerarlos desde cero."
+}
