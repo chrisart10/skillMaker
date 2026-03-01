@@ -5,19 +5,19 @@ Este archivo sirve como referencia para que sepas qué pedirme y cómo interactu
 ## 🔄 Mantenimiento de Documentación
 Usa estos comandos para mantener tu fuente de verdad actualizada con Anthropic.
 
-- **Prompt**: "Gemini, actualiza la documentación de Anthropic."
+- **Prompt**: "Actualiza la documentación de Anthropic."
 - **Lo que hace**: Ejecuta `git submodule update --remote` para traer los últimos estándares SOTA 2026.
 
 ## 🔍 Análisis de Proyectos (Multirepo)
 Usa este comando para que audite tus otros proyectos y te proponga skills a medida.
 
-- **Prompt**: "Gemini, analiza mi proyecto [nombre-del-repo] en la carpeta Git y dime qué skills necesito."
+- **Prompt**: "Analiza mi proyecto [nombre-del-repo] en la carpeta Git y dime qué skills necesito."
 - **Lo que hace**: Entro en la carpeta del proyecto, analizo su estructura/código y te propongo una lista de skills universales que fabricaremos aquí en `skillMaker`.
 
 ## 📚 Agregar Fuentes de Referencia
 Si encuentras otros repositorios o documentación útil (por ejemplo, de OpenAI o herramientas específicas), usa estos comandos.
 
-- **Prompt**: "Gemini, agrega una nueva fuente de referencia desde [URL-del-Repo-GitHub] en la carpeta ./docs-[nombre]."
+- **Prompt**: "Agrega una nueva fuente de referencia desde [URL-del-Repo-GitHub] en la carpeta ./docs-[nombre]."
 - **Lo que hace**: Configuro un nuevo Git Submodule para que esa fuente también sea fácil de actualizar en el futuro.
 
 ## 🎨 Creación de Skills Universales
