@@ -6,3 +6,5 @@ SIEMPRE consulta @docs-anthropic/skills/skill-creator/SKILL.md antes de generar 
 Todos los skills deben ser UNIVERASALES (compatibles con Gemini, Claude y GPT).
 
 Estructura obligatoria por cada skill: Una carpeta en /outputs/ que contenga un SKILL.md con YAML frontmatter profesional.
+
+Control de Versiones: NO realices `commit` ni `push` a menos que el usuario lo solicite explícitamente. El usuario gestiona el repositorio.
