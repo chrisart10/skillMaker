@@ -8,6 +8,13 @@ Usa estos comandos para mantener tu fuente de verdad actualizada con Anthropic.
 - **Prompt**: "Gemini, actualiza la documentación de Anthropic."
 - **Lo que hace**: Ejecuta `git submodule update --remote` para traer los últimos estándares SOTA 2026.
 
+## 📚 Agregar Fuentes de Referencia
+Si encuentras otros repositorios o documentación útil (por ejemplo, de OpenAI o herramientas específicas), usa estos comandos.
+
+- **Prompt**: "Gemini, agrega una nueva fuente de referencia desde `[URL-del-Repo-GitHub]` en la carpeta `./docs-[nombre]`."
+- **Lo que hace**: Configuro un nuevo Git Submodule para que esa fuente también sea fácil de actualizar en el futuro.
+- **Ejemplo**: "Gemini, agrega el repo de OpenAI de referencia en `./docs-openai`."
+
 ## 🎨 Creación de Skills Universales
 Usa estos prompts para iniciar la fabricación de nuevos skills.
 
